@@ -1,0 +1,36 @@
+
+<html> 
+<body> 
+
+<html>
+<head><title></title></head>
+<script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+<script type="text/javascript">
+var snd = new Audio("http://vignette4.wikia.nocookie.net/kancolle/images/e/e2/Nagato-Joining_A_Fleet.ogg");
+var soundID = "Thunder";
+var aa = "Nagato-Docking_Minor.ogg";
+function loadSound () {
+  createjs.Sound.registerSound(snd, soundID);
+}
+function playSound () {
+  createjs.Sound.play(soundID);
+}
+
+
+
+var snd3 = new Audio("http://vignette4.wikia.nocookie.net/kancolle/images/e/e2/Nagato-Joining_A_Fleet.ogg");
+var snd1 = new Audio("http://vignette4.wikia.nocookie.net/kancolle/images/1/1f/Nagato-Equipment_3.ogg");
+var snd2 = new Audio("Nagato-Docking_Minor.ogg");
+</script>
+<body onload="loadSound();">
+	<button onclick="playSound();" class="playSound">Play Sound</button>
+
+<button onclick="snd3.play()">senkan nagato</button>
+<button onclick="snd1.play()">tes</button>
+<button onclick="snd2.play()">tes2</button>
+<a href="http://webaudioapi.com/samples/audio-tag/">aaaaaa</a>
+</body>
+</html>
+
+</body> 
+</html>
